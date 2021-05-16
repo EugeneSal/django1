@@ -3,7 +3,9 @@
 {% block content %}
     <h1>Создать \ Изменить пост</h1>
     <form method="POST" class="post-form">{% csrf_token %}
+        <a class="post-form-a1">Заголовок:</a>
         {{ form.as_p }}
-        <button type="submit" class="save btn btn-default">Сохранить</button>
+        <a class="post-form-a2">Текст:</a>
+        <button type="submit" class="save-btn-btn-default">Сохранить</button>
     </form>
 {% endblock %}

@@ -1,29 +1,92 @@
 .page-header {
-    border-style: double;
-    border-color: black;
-    height: 55vh;
+  /*  border-style: double;
+    border-color: yellow;*/
+    height: auto;
     background-color: #edc85a;
-    margin-top: 120px;
-    padding: 15px 20px 20px 40px;
+    margin: -20px 0 0 0;
+    padding: 10px 0 10px 0;
+    display: block;
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    border-style: double;
-    border-color: black;
+.img_python {
+    /*border-image: url(/mysite/static/python_logo.jpg);
+   /* background-image: url(static/python_logo.jpg);*/
+    height: 90px;
+    width: 90px;
+    margin: -20px 0 -20px 0;
+    padding: 0 0 0 0;
+  /*  display: block;
+    position: relative;
+    top: 0;*/
+}
+/*
+.img_background {
+    opacity: 0.3;
+    background-size: contain;
+    background-origin: initial;
+    width: 1920px;
+    height: 1080px;*/
+
+}
+
+.page-header h1 {
+ /*   border-style: double;
+    border-color: #bb2020;*/
     color: #0067c4;
-    font-size: 38pt;
-    font-weight: 100;
+    font-size: 34pt;
+    font-weight: bolder;
     text-decoration: none;
+    height: auto;
+    width: 68%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    display: block;
+    position: relative;
+    left: 10px;
+    right: 30%;
+    top: 10px;
+  /*  background-image: url('/mysite/static/images/background1.jpg');
+    background-origin: content-box;*/
+}
+
+.page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #0067c4;
+    font-size: 36pt;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 0 0 0 20px;
+
 }
 
 .content {
-    margin-left: 80px;
-    border-style: double;
-    border-color: black;
+    /*margin-left: 70px;*/
+    width: 90%;
+ /*   border-style: double;
+    border-color: #c52ce7;*/
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.row {
+ /*   border-style: double;
+    border-color: #81ef0e;*/
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+}
+
+.col-md-8 {
+    width: 100%;
+ /*   border-style: double;
+    border-color: #0e12ef;*/
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
+    color: #05994c;
 }
 
 .date {
@@ -35,29 +98,98 @@ h1, h2, h3, h4 {
 }
 
 .post-form textarea, .post-form input {
-    width: 100%;
-    border-style: double;
-    border-color: black;
+    width: 80%;
+    height: 100%;
+    margin: 0 0 10px 90px;
+    padding: 0 0 0 0;
+    border-style: dot-dash;
+    border-color: #05994c;
+}
+.post-form-a1  {
+    color: #05994c;
+    margin: 50px 50px 20px 10px;
+    padding: 50px 0 0 0;
+    position: relative;
+    top: 20px;
 }
 
-.top-menu, .tom-menu:hover, .top-menu:visited {
-    border-style: double;
-    border-color: black;
+.post-form-a2  {
+    color: #05994c;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 0;
+    position: relative;
+    bottom: 160px;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited  {
+   /* border-style: double;
+    border-color: #1aaa81;*/
     color: #0067c4;
     float: right;
-    font-size: 26pt;
+    font-size: 21pt;
     margin-right: 20px;
+   /* margin-left: 200px;*/
+    display: block;
+    height: auto;
+    width: 20%;
+    position: absolute;
+    left: 75%;
+    top: 10px
 }
 
 .post {
-    margin-bottom: 70px;
+    width: 90%;
+    font-size: 15pt;
+    margin: 0 0 70px 50px;
+    box-sizing: border-box;
+ /*   border-style: double;
+    border-color: #2ce7e7;*/
+
+
 
 }
 
 .post h1 a, .post h1 a:visited {
-    color: #000000;
+    color: #05994c;
+
 }
 
 .comment {
     margin: 20px 0 20px 20px;
+    border-style: double;
+    border-color: #d92347;
 }
+.top-menu-but-new {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    left: 96.5%;
+    top: 2%;
+    font-size: 24px;
+}
+
+.top-menu-but-draft {
+    border: none;
+   /* color: #74177d;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    left: 96.5%;
+    top: 7%;
+    font-size: 24px;
+}
+
+.save-btn-btn-default {
+    position: relative;
+    left: 81%;
+    bottom: 20%;
+    font-size: 15px;
+    margin: 5px 0 50px 0;
+}
+/*
+.post_text {
+    border-style: double;
+    border-color: #d92347;
+}*/
